@@ -1,0 +1,29 @@
+copia copiaaaaaaaaaaaaa
+#crear directorio
+git init
+#descargar un archivo desde git
+git clone https://github.com/AndreaRios96/Reto_tecnico.git
+#busquedad entre directorios
+ls
+#para ver las modificaciones
+git status 
+#adicionar ese cambio
+git add .
+#confirmar el cambio con un comentario
+git commit -m "cambio desde el local"
+#crear una rama para el cambio
+git checkout -b feature-NuevaRama
+#impulsar el cambio a la nube
+git push origin feature-NuevaRama
+
+#########################################
+###comandos profe
+git config global user.name Jhonny Zapata
+git config --global user.email jhonny.z1822@gmail.com
+#enlista las opciones
+git config --list
+git add .
+git status
+git commit -m "Primer commit"
+git remote add origin https://github.com/jhozap/Ciclo3-2.git
+git push -u origin master
