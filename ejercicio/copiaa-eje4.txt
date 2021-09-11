@@ -1,3 +1,6 @@
+div{
+	background, red;
+}
 copia copiaaaaaaaaaaaaa
 #crear directorio
 git init
